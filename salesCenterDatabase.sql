@@ -10,8 +10,6 @@ CREATE TABLE user_role
 INSERT INTO user_role (role_name) VALUES ('user');
 
 --create user table
-USE salescenter;
-
 DROP TABLE IF EXISTS user;
 
 CREATE TABLE user
