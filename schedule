@@ -1,0 +1,51 @@
+1/30
+   X create index page
+   X create user dash page
+   X user dash redirect
+   X jsp
+      X  bootrap
+      X  footer
+      X  navbar
+            -will require additional work.  layout will change.  base started
+      X  head
+    X get JSTL tags working
+    X layout login form
+        -will require additional work for style
+    X authentication in web.xml
+    X create database, add user and role tables.  add dev test row to each
+
+1/31
+    User and UserRole javabeans
+    User and UserRole DAO
+    AppStart class
+        - instantiate DAOs
+    establish database connection
+    complete authentication
+
+    install jUnit
+    test to this point
+
+    adopt-a-car page
+    adopt-a-car redirect
+
+    bank payoff page
+    bank payoff redirect
+
+2/1
+    rework navigation
+        -remove bar.  tiles on page.  red for undeveloped.  yellow untested. blue for ready.
+    bank payoff table.  5 dev test rows
+    DAO class for bank
+
+    bank payoff jsp to query all banks, or search. live query??? how do i want to present this?
+
+2/2
+    complete bank payoff page
+    test bank payoff features
+
+2/3
+    adopt-a-car javabean
+    car DOA
+
+    list cars to page
+    search option
