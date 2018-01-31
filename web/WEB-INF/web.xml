@@ -7,9 +7,12 @@
     <!-- SECURITY CONSTRAINT -->
     <security-constraint>
         <web-resource-collection>
-            <web-resource-name>user</web-resource-name>
-            <url-pattern>/user/*</url-pattern>
+            <web-resource-name>User</web-resource-name>
+            <url-pattern>user/*</url-pattern>
         </web-resource-collection>
+        <auth-constraint>
+            <role-name>user</role-name>
+        </auth-constraint>
     </security-constraint>
     
     <!-- LOGIN CONFIGURATION -->
@@ -22,10 +25,4 @@
             <form-error-page>/index.jsp</form-error-page>
         </form-login-config>
     </login-config>
-    
-    <!-- SECURITY ROLE -->
-    <security-role>
-        <role-name>user</role-name>
-    </security-role>
-    
 </web-app>
