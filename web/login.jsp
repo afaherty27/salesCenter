@@ -7,17 +7,17 @@
 
     <body>
 
-        <form action="j_security_check" method="post">
+        <form method="post" action="j_security_check">
             <div class="form-group">
-                <label for="j_username">User Name:</label>
-                <input type="text" class="form-control" id="j_username" />
+                <label for="username">User Name:</label>
+                <input type="text" class="form-control" id="username" name="j_username" />
             </div>
             <div class="form-group">
-                <label for="j_password">User Name:</label>
-                <input type="password" class="form-control" id="j_password" />
+                <label for="password">User Name:</label>
+                <input type="password" class="form-control" id="password" name="j_password" />
             </div>
 
-            <button type="submit" class="btn btn-primary">Log In</button>
+            <input type="submit" class="btn btn-primary" value="Login" />
 
         </form>
 

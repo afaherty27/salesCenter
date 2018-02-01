@@ -7,7 +7,7 @@
     <!-- SECURITY CONSTRAINT -->
     <security-constraint>
         <web-resource-collection>
-            <web-resource-name>User</web-resource-name>
+            <web-resource-name>User Page</web-resource-name>
             <url-pattern>/user/*</url-pattern>
         </web-resource-collection>
         <auth-constraint>
@@ -18,7 +18,7 @@
     <!-- LOGIN CONFIGURATION -->
     <login-config>
         
-        <auth-method>BASIC</auth-method>
+        <auth-method>FORM</auth-method>
         
         <form-login-config>
             <form-login-page>/login.jsp</form-login-page>
