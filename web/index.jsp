@@ -14,7 +14,7 @@
     <body>
 
 
-        <a href="user/user.jsp">USER DASHBOARD</a>
+        <a href="/user">USER DASHBOARD</a>
 
         <!--include bootstrap -->
         <c:import url="jsp/bootstrap.jsp" />
