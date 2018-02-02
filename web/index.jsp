@@ -7,14 +7,15 @@
 -->
 
 <html lang="en">
-    <c:set var="title" value="SalesCenter - HOME" scope="request" />
+    <c:set var="title" value="SalesCenter" scope="request" />
 
     <c:import url="jsp/head.jsp"/>
 
     <body>
 
 
-        <a href="/user">USER DASHBOARD</a>
+        <a href="/user">LOGIN</a>
+        <a href="#">SIGN UP</a>
 
         <!--include bootstrap -->
         <c:import url="jsp/bootstrap.jsp" />
