@@ -21,7 +21,7 @@ import java.io.IOException;
  */
 public class UserHomeRedirect extends HttpServlet {
 
-    //todo ref log4j
+
     private final Logger log = Logger.getLogger(UserHomeRedirect.class);
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
