@@ -1,3 +1,4 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%--
   Created by IntelliJ IDEA.
   User: Adam Faherty
@@ -7,10 +8,17 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-<head>
-    <title>Title</title>
-</head>
+    <c:set var="title" value="SalesCenter - Dashboard" scope="request" />
+
+    <c:import url="../jsp/head.jsp"/>
     <body>
-        <p>hello user</p>
+
+        <c:import url="../jsp/navbar.jsp"/>
+
+
+        <!--include bootstrap -->
+        <c:import url="../jsp/bootstrap.jsp" />
     </body>
+
+    <c:import url="../jsp/footer.jsp" />
 </html>
