@@ -17,7 +17,7 @@ import java.io.IOException;
  *
  * redirect class for user.jsp page
  * @author Adam Faherty
- * Date:01/30/2018
+ * @version 1.0 01/30/2018
  */
 public class UserHomeRedirect extends HttpServlet {
 
