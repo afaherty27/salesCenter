@@ -15,35 +15,42 @@
     X create database, add user and role tables.  add dev test row to each
 
 1/31
-    User and UserRole javabeans
+   X complete authentication
+   X rework navigation
+
+2/1
+    X User javabeans
+    X template adopt-a-car page
+    X template bank payoff page
+
+2/2
+    UserRole javabeans
+    Hibernate Config
+    adopt-a-car redirect
+    bank payoff redirect
+
+2/3
     User and UserRole DAO
     AppStart class
         - instantiate DAOs
     establish database connection
-    complete authentication
 
+2/4
     install jUnit
     test to this point
 
     adopt-a-car page
-    adopt-a-car redirect
 
-    bank payoff page
-    bank payoff redirect
-
-2/1
-    rework navigation
-        -remove bar.  tiles on page.  red for undeveloped.  yellow untested. blue for ready.
+2/5
     bank payoff table.  5 dev test rows
     DAO class for bank
 
+2/6
     bank payoff jsp to query all banks, or search. live query??? how do i want to present this?
-
-2/2
     complete bank payoff page
     test bank payoff features
 
-2/3
+2/7
     adopt-a-car javabean
     car DOA
 
