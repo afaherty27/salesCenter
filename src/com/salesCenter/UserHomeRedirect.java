@@ -23,6 +23,14 @@ public class UserHomeRedirect extends HttpServlet {
 
 
     private final Logger log = Logger.getLogger(UserHomeRedirect.class);
+
+    /**
+     * gets servlet methods
+     * @param request   HttpServletRequest object
+     * @param response  HttpServletResponse object
+     * @throws ServletException if there is a servlet error
+     * @throws IOException if there is an input/output error
+     */
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         redirectUser(response);
