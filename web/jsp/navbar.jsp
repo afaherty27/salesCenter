@@ -20,10 +20,10 @@
                 </div>
             </li> <!--end dropdown -->
             <li class="nav-item">
-                <a class="nav-link" href="#">Payoff Contacts</a> <!--todo fix link -->
+                <a class="nav-link" href="payoff">Payoff Contacts</a> <!--todo fix link -->
             </li> <!--end payoff contacts -->
             <li class="nav-item">
-                <a class="nav-link" href="">Adopt-a-Car</a> <!-- todo fix link -->
+                <a class="nav-link" href="adopt">Adopt-a-Car</a> <!-- todo fix link -->
             </li><!-- end adopt-a-car -->
         </ul>
     </div>
