@@ -3,7 +3,7 @@
         "-//Hibernate/Hibernate Mapping DTD//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="com.salesCenter.database.entity.User">
+    <class name="com.salesCenter.database.entity.User" table="user">
 
         <!-- description -->
         <meta attribute="class-description">class contains user details</meta>
