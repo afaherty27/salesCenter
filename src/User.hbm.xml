@@ -3,10 +3,25 @@
         "-//Hibernate/Hibernate Mapping DTD//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="">
+    <class name="com.salesCenter.database.entity.User">
+
         <!-- description -->
+        <meta attribute="class-description">class contains user details</meta>
         <!-- id column -->
-        <!-- properties relating to db columns ->
+
+        <id name="userId" type="int" column="user_id" >
+            <generator class="native" />
+        </id>
+
+        <!-- properties relating to db columns -->
+        <property name="userName"       column="user_name"      type="string" />
+        <property name="userFirstName"  column="user_f_name"    type="string" />
+        <property name="userLastName"   column="user_l_name"    type="string" />
+        <property name="userPass"       column="user_pass"      type="string" />
+        <property name="userPhone"      column="phone"          type="int" />
+
         <!-- define foreign key -->
+        <many-to-one name="userRole" class="com.salesCenter.database.entity.UserRole"
+                     column="role" not-null="true" />
     </class>
 </hibernate-mapping>

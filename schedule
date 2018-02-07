@@ -24,33 +24,38 @@
     X template bank payoff page
 
 2/2
-   X UserRole javabean
-    Hibernate Config
-    adopt-a-car redirect
-    bank payoff redirect
+    X UserRole javabean
 
-2/3
+2/3-4 OFF
+
+2/5
+    Hibernate Config 2/5 --> completed hibernate.cfg.xml.  User.hbm.xml tomorrow
+    X adopt-a-car forward
+    X bank payoff forward
+
+
+2/6
     User and UserRole DAO
     AppStart class
         - instantiate DAOs
     establish database connection
 
-2/4
+2/7
     install jUnit
     test to this point
 
     adopt-a-car page
 
-2/5
+2/8
     bank payoff table.  5 dev test rows
     DAO class for bank
 
-2/6
+2/?
     bank payoff jsp to query all banks, or search. live query??? how do i want to present this?
     complete bank payoff page
     test bank payoff features
 
-2/7
+2/?
     adopt-a-car javabean
     car DOA
 
