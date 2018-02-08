@@ -3,5 +3,17 @@
         "-//Hibernate/Hibernate Mapping DTD//EN"
         "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
 <hibernate-mapping>
-    <class name="" table=""
+    <class name="com.salesCenter.database.entity.UserRole" table="role">
+
+        <meta attribute="class-description">class contains user role details</meta>
+
+        <!--id column -->
+        <id name="roleId" type="int" column="role_id">
+            <generator class="native" />
+        </id>
+        <!--properties relating to db columns -->
+        <property name="roleName" column="role_name" type="string" />
+        <property name="userName" column="user_name" type="string" />
+
+    </class>
 </hibernate-mapping>
