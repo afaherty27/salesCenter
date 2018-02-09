@@ -4,8 +4,15 @@ import com.salesCenter.database.dataAccess.UserDao;
 import com.salesCenter.database.dataAccess.UserRoleDao;
 import org.apache.log4j.Logger;
 
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import java.util.Properties;
+
+@WebServlet(
+        name            = "appStartup",
+        urlPatterns     = "/salesCenterStartup",
+        loadOnStartup   = 1
+)
 
 /**
  * Start up class to initialize data for application
