@@ -36,9 +36,10 @@
 
 2/8
     User and UserRole DAO
+        -started.  write code for User & UserRole tomorrow
     AppStart class
         - instantiate DAOs
-    establish database connection
+    X establish database connection (in hibernate.cfg.xml)
 
 2/9
     install jUnit
