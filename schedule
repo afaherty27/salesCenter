@@ -29,24 +29,24 @@
 2/3-4 OFF
 
 2/5
-    Hibernate Config 2/5 --> completed hibernate.cfg.xml.  User.hbm.xml tomorrow
+    X Hibernate Config 2/5 --> completed hibernate.cfg.xml.  User.hbm.xml tomorrow
     X adopt-a-car forward
     X bank payoff forward
 
 
-2/6
+2/8
     User and UserRole DAO
     AppStart class
         - instantiate DAOs
     establish database connection
 
-2/7
+2/9
     install jUnit
     test to this point
 
     adopt-a-car page
 
-2/8
+2/11
     bank payoff table.  5 dev test rows
     DAO class for bank
 
